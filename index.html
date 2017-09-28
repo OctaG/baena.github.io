@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+  <head>
+    <title>Automotriz Baena</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Monda" rel="stylesheet">
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  </head>
+  <body id="Baena" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#Baena"><i class="material-icons">home</i></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#quienes">Quiénes Somos</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#verificacion">Verificación</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid bg-1 text-center">
+      <h1>AUTOMOTRIZ BAENA</h1>
+      <img class="img-responsive slideanim"  style="display:inline" src="logo.jpg" alt="Logo Automotriz Baena">
+    </div>
+
+  <div id="quienes">
+    <div class="container-fluid bg-2 text-center">
+      <h2>¿Quiénes Somos?</h2>
+      <h3>Somos una empresa que brinda servicios automotrices de la mejor calidad basados en los estándares y procesos utilizados en la norma SAE.</h3>
+    </div>
+
+
+    <div class="container-fluid bg-3 row text-center">
+      <div class="col-sm-4">
+        <p><strong>Garantia</strong></p><br>
+        <i class="material-icons slideanim">verified_user</i>
+      </div>
+      <div class="col-sm-4">
+        <p><strong>Compromiso</strong></p><br>
+        <i class="material-icons slideanim">thumb_up</i>
+      </div>
+      <div class="col-sm-4">
+        <p><strong>Satisfacción</strong></p><br>
+        <i class="material-icons slideanim">sentiment_very_satisfied</i>
+      </div>
+    </div>
+  </div>
+
+  <div id="servicios" class="container-fluid bg-4">
+
+    <div class="text-center">
+      <h1>Servicios</h1>
+    </div>
+
+    <div class="col-sm-6 slideanim">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h2>Mecánica General</h2>
+          <h4>Servicios de mantenimiento para tu automóvil</h4>
+        </div>
+        <div class="panel-body">
+          <p>Afinaciones Fuel Injection</p>
+          <p>Frenos</p>
+          <p>Ajuste de motor</p>
+          <p>Transmisiones Automáticas y Estandar</p>
+          <p>Direcciones Hidráulicas y Electrónicas</p>
+          <p>Fallas y programación en sistema obd II y RED multiplexada </p>
+        </div>
+        <div class="panel-footer">
+          <a href="#contacto"><button class="btn btn-lg">Cotizar Ahora</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 slideanim">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h2>Trámites y Pagos</h2>
+          <h4>Servicios de trámites para tu automóvil</small></h4>
+        </div>
+        <div class="panel-body">
+          <p>Pago de tenencia vehícular</p>
+          <p>Pago de infracciones y multas</p>
+          <p>Servicio de verificación vehícular</p>
+          <p>Tramite de placas CDMX Y Estado de México</p>
+          <p>Tarjeta de circulación</p>
+          <p>Pagos de tesoreria hasta el 50% DE DESCUENTO </p>
+        </div>
+        <div class="panel-footer">
+          <a href="#contacto"><button class="btn btn-lg">Cotizar Ahora</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="verificacion" class="container-fluid bg-5">
+  <h2>Calendario de Verificación</h2>
+  <p>Conoce cuándo te toca verificar tu vehículo</p>
+  <div class= "table-responsive table-condensed slideanim">
+    <table class="table table-hover table-sm text-center">
+      <thead>
+        <tr>
+          <th>Color del engomado</th>
+          <th>Último dígito de la placa</th>
+          <th>Próximo periodo de verificación</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id = "amarillo">
+          <td>Amarillo</td>
+          <td>5 y 6</td>
+          <td>2018</td>
+        </tr>
+        <tr id = "rosa">
+          <td>Rosa</td>
+          <td>7 y 8</td>
+          <td>2018</td>
+        </tr>
+        <tr id = "rojo">
+          <td>Rojo</td>
+          <td>3 y 4</td>
+          <td>Septiembre y Octubre</td>
+        </tr>
+        <tr id = "verde">
+          <td>Verde</td>
+          <td>1 y 2</td>
+          <td>Octubre y Noviembre</td>
+        </tr>
+        <tr id = "azul">
+          <td>Azul</td>
+          <td>9 y 0</td>
+          <td>Noviembre y Diciembre</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+    <div id="ubicacion" class="container-fluid bg-6 text-center">
+      <h2>Ubicación</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.919985471354!2d-99.20587574979436!3d19.37261698685424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d200305f73f209%3A0x1dd7c6ef476b805d!2sAUTOMOTRIZ+BAENA!5e0!3m2!1ses-419!2smx!4v1506571345247" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <div id="contacto" class="container-fluid bg-7">
+      <h2>Contacto</h2>
+      <div class="row">
+        <div class="col-sm-5">
+          <p>Contactactenos y le responderemos en breve</p>
+          <p><span class="glyphicon glyphicon-map-marker"></span> CDMX </p>
+          <p><span class="glyphicon glyphicon-phone"></span> 55932026 - 56804631</p>
+          <p><span class="glyphicon glyphicon-envelope"></span> robert_serv.baen@hotmail.com</p>
+        </div>
+        <div class="col-sm-7 slideanim">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
+          </div>
+          <textarea class="form-control" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea><br>
+          <div class="row">
+            <div class="col-sm-12 form-group">
+              <button class="btn btn-default pull-right" type="submit">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center">
+      <a class="up-arrow" href="#Baena" data-toggle="tooltip" title="TO TOP">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </footer>
+
+    <script>
+
+    </script>
+  </body>
+</html>
